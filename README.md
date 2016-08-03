@@ -1,2 +1,2 @@
 # AnalysisOfRoadAccidentsRome
-Draft analysis of road accidents in the municipality of Rome. Using technologies to the environment BigData. 
+Project analysis of road accidents in the municipality of Rome. Using technologies to the environment BigData. 
