@@ -52,6 +52,6 @@ STEP 2 - Basic Analytics
 The second step was to develop and transform the data stored inside of the database in order to make them suitable for display operations and basic monitoring. For this purpose was used [Apache Spark](http://spark.apache.org/), for its efficiency thanks to the ability to exploit the main memory to process large amounts of data. Thanks to "[MongoDB Connector for Hadoop](https://github.com/mongodb/mongo-hadoop)" connector was possible to interact the two systems in the stage of reading input and output writing.
 
 
-STEP 2 - Advanced Analytics
+STEP 3 - Advanced Analytics
 ==============
 Work in progress...
