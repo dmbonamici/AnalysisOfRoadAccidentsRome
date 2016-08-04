@@ -46,6 +46,8 @@ At this stage we had some difficulties due to two main issues:
 
 ![Suddivione](http://i.imgur.com/vrVutBP.png)
 
+to do this, the part of the code called "CleanJson" was used.
+
 STEP 2 - Basic Analytics
 ==============
 
