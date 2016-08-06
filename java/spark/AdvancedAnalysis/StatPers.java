@@ -1,4 +1,3 @@
-package it.uniroma3.bigdata;
 
 import com.mongodb.hadoop.MongoInputFormat;
 
