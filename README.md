@@ -53,6 +53,23 @@ STEP 2 - Basic Analytics
 
 The second step was to develop and transform the data stored inside of the database in order to make them suitable for display operations and basic monitoring. For this purpose was used [Apache Spark](http://spark.apache.org/), for its efficiency thanks to the ability to exploit the main memory to process large amounts of data. Thanks to "[MongoDB Connector for Hadoop](https://github.com/mongodb/mongo-hadoop)" connector was possible to interact the two systems in the stage of reading input and output writing.
 
+In the basic analysis are 7 classes:
+
+- AccidentsMunicipi: answers to the first question, how many accidents occur in each municipality? What is the municipality with the highest number of accidents?
+
+- AccidentsCause: answers the question, how the accident occurred? What were the causes?
+
+- AccidentsFasce: Which age group is more likely to have accidents in Rome?
+
+- AccidentsGiorni: When accidents happen in Rome? He responds by breaking into days of the week and different time zones.
+
+- AccidentsCond: A small study on road conditions at the time of the accident.
+
+- AccidentsPedonali: Study on the causes that led to pedestrian accidents, broken down by municipality.
+
+- Vehicles: class created to see what brands of vehicles, and in what quantity (cars, motorcycles and public transport), who carried out or have been involved in road accidents in Rome.
+
+
 
 STEP 3 - Advanced Analytics
 ==============
