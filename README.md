@@ -95,3 +95,9 @@ By analyzing the results it was possible to make the following considerations:
 - Women aged over 70 years have a predisposition toward incidents against parked car and fixed obstacles (decreased reflexes and eyesight?)
 
 
+As for the second task as there is no agreement, in order to define an age or a sex for which a driver may be considered more suitable to the guide, it was decided to simply normalize for the frequency of occurrence of an accident, without taking into consider any other parameter. The formula is always the same as used for the previous task.
+Three different observations found, we find:
+- In Hall 7 almost all types of accidents occur due to insufficient lighting.
+- Paved road and inadequate lighting are the main causes of pedestrian investment (in both conditions it has been shown that the driver has difficulty seeing the pedestrian crossing).
+- The main cause of accidental collisions with obstacles is the road surface uneven (the problem of the holes in Rome is in fact one of the main problems with which they have to fight every day drivers of two- and four-wheel).
+- In Hall 8 the presence of poor lighting and paved road on some routes has caused incidents involving the leakage from the road (lack of good illumininazione).
