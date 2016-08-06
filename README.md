@@ -101,3 +101,5 @@ Three different observations found, we find:
 - Paved road and inadequate lighting are the main causes of pedestrian investment (in both conditions it has been shown that the driver has difficulty seeing the pedestrian crossing).
 - The main cause of accidental collisions with obstacles is the road surface uneven (the problem of the holes in Rome is in fact one of the main problems with which they have to fight every day drivers of two- and four-wheel).
 - In Hall 8 the presence of poor lighting and paved road on some routes has caused incidents involving the leakage from the road (lack of good illumininazione).
+
+You can study these analyzes (and possibly find more correlations), using the "StatPers" classes (first task) and "StatIllumPav" (second task).
