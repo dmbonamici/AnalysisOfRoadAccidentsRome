@@ -83,4 +83,15 @@ X is called the "prior" and can have one or more items while Y is called the con
 - The first concerning the combination lighting-floor;
 - The second concerning sex-age drivers.
 
-During a first analysis we realized that the probability of occurrence of a certain type of traffic accident seemed independent from both the driver's characteristics that the particular scenario where happened. In fact by the highest probability values obtained were always those regarding the types of claims with greater probability of occurrence (front-side collisions and side collisions), this is because the algorithm does not take into account the number of occurrences of the "consequent" in the calculation of "confidence".
+During a first analysis we realized that the probability of occurrence of a certain type of traffic accident seemed independent from both the driver's characteristics that the particular scenario where happened. In fact by the highest probability values obtained were always those regarding the types of claims with greater probability of occurrence (front-side collisions and side collisions), this is because the algorithm does not take into account the number of occurrences of the "consequent" in the calculation of "confidence". It was then carried out a normalization, taking into consideration the frequency of the various accidents. It is given a greater weight to the more rare incidents so as to determine how much influenced "effectively" the scenario considered in the occurrence of a certain type of event.
+
+As regards the first task was calculated to normalize the probability (normConfidence) of each type of accident to occur with asphalt and paving daylight illumination (such as "antecedent" we would have the pair [asphalt, daytime hours] and as resulting in a different type of incident to every rule): factors considered optimal, and that they should not favor the occurrence of a particular type of incident. We realized that divide the confidence of each rule in the algorithm output, with the probability of occurrence of the type of accident in the "conseguent" (calculated for normalization) gave a too greater weight to the more rare accidents. So after several attempts it was realized that reasonable results were obtained using as the attenuation factor of the logarithm to the base 10 module.
+
+![Role2](http://i.imgur.com/2TxLs0p.png)  with ruleConseguent = normConseguent. 
+
+By analyzing the results it was possible to make the following considerations:
+- For each municipality women between 40 and 69 years of age have a high rate to make a crash. It is observed, however, that in general women are more likely to carry these types of accidents than men.
+- The boys between 18 and 25 years have a high incidental rate for front or side crashes (inexperience or high speed?)
+- Women aged over 70 years have a predisposition toward incidents against parked car and fixed obstacles (decreased reflexes and eyesight?)
+
+
