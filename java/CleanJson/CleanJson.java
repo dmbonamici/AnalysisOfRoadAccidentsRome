@@ -1,5 +1,4 @@
-package it.uniroma3.bigdata;
-
+ 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
