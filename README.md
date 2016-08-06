@@ -73,4 +73,14 @@ In the basic analysis are 7 classes:
 
 STEP 3 - Advanced Analytics
 ==============
-Work in progress...
+
+Knowing the risk factors for the different zones (municipalities) that register in accident conditions with recursion characters or high volumes of incidents is important to be able to implement these corrective factors. In support of this we have decided to use [MLlib](http://spark.apache.org/mllib/), a library of machine learning algorithms for Apache Spark. Mllib has an implementation of FP-growth, a famous algorithm of Frequent Pattern Mining of which we used the "Association rule learning", a method to find interesting relationships between variables in large databases.
+
+![Role](http://i.imgur.com/ncU6d5y.png)
+
+X is called the "prior" and can have one or more items while Y is called the consequent and consists of a single item. The use of this technology was important to try to understand what are the main factors leading to the occurrence of certain types of accidents, two macro-categories were analyzed for these factors, in two different tasks both focused within a single municipality:
+
+- The first concerning the combination lighting-floor;
+- The second concerning sex-age drivers.
+
+During a first analysis we realized that the probability of occurrence of a certain type of traffic accident seemed independent from both the driver's characteristics that the particular scenario where happened. In fact by the highest probability values obtained were always those regarding the types of claims with greater probability of occurrence (front-side collisions and side collisions), this is because the algorithm does not take into account the number of occurrences of the "consequent" in the calculation of "confidence".
